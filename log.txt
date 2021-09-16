@@ -1,0 +1,454 @@
+Attaching to docker-multi-domain_b_1, docker-multi-domain_a_1, docker-multi-domain_nginx-proxy_1
+[36ma_1            |[0m AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+[36ma_1            |[0m AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+[36ma_1            |[0m [Thu Sep 16 11:03:51.487815 2021] [mpm_event:notice] [pid 1:tid 140250985608320] AH00489: Apache/2.4.48 (Unix) configured -- resuming normal operations
+[36ma_1            |[0m [Thu Sep 16 11:03:51.490275 2021] [core:notice] [pid 1:tid 140250985608320] AH00094: Command line: 'httpd -D FOREGROUND'
+[36ma_1            |[0m [Thu Sep 16 11:03:54.471950 2021] [mpm_event:notice] [pid 1:tid 140250985608320] AH00492: caught SIGWINCH, shutting down gracefully
+[36ma_1            |[0m AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[36ma_1            |[0m AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[36ma_1            |[0m [Thu Sep 16 11:09:25.391703 2021] [mpm_event:notice] [pid 1:tid 140324408206464] AH00489: Apache/2.4.48 (Unix) configured -- resuming normal operations
+[36ma_1            |[0m [Thu Sep 16 11:09:25.540908 2021] [core:notice] [pid 1:tid 140324408206464] AH00094: Command line: 'httpd -D FOREGROUND'
+[36ma_1            |[0m [Thu Sep 16 11:09:35.715012 2021] [mpm_event:notice] [pid 1:tid 140324408206464] AH00492: caught SIGWINCH, shutting down gracefully
+[36ma_1            |[0m AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+[36ma_1            |[0m AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+[36ma_1            |[0m [Thu Sep 16 11:09:53.392505 2021] [mpm_event:notice] [pid 1:tid 140196966777984] AH00489: Apache/2.4.48 (Unix) configured -- resuming normal operations
+[36ma_1            |[0m [Thu Sep 16 11:09:53.392733 2021] [core:notice] [pid 1:tid 140196966777984] AH00094: Command line: 'httpd -D FOREGROUND'
+[33mb_1            |[0m AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[33mb_1            |[0m AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[33mb_1            |[0m [Thu Sep 16 11:03:50.222436 2021] [mpm_event:notice] [pid 1:tid 140654025991296] AH00489: Apache/2.4.48 (Unix) configured -- resuming normal operations
+[33mb_1            |[0m [Thu Sep 16 11:03:50.223758 2021] [core:notice] [pid 1:tid 140654025991296] AH00094: Command line: 'httpd -D FOREGROUND'
+[33mb_1            |[0m [Thu Sep 16 11:03:54.539893 2021] [mpm_event:notice] [pid 1:tid 140654025991296] AH00492: caught SIGWINCH, shutting down gracefully
+[33mb_1            |[0m AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.4. Set the 'ServerName' directive globally to suppress this message
+[33mb_1            |[0m AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.4. Set the 'ServerName' directive globally to suppress this message
+[33mb_1            |[0m [Thu Sep 16 11:09:25.771368 2021] [mpm_event:notice] [pid 1:tid 140665371411584] AH00489: Apache/2.4.48 (Unix) configured -- resuming normal operations
+[33mb_1            |[0m [Thu Sep 16 11:09:25.774058 2021] [core:notice] [pid 1:tid 140665371411584] AH00094: Command line: 'httpd -D FOREGROUND'
+[33mb_1            |[0m [Thu Sep 16 11:09:35.682432 2021] [mpm_event:notice] [pid 1:tid 140665371411584] AH00492: caught SIGWINCH, shutting down gracefully
+[33mb_1            |[0m AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[33mb_1            |[0m AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[33mb_1            |[0m [Thu Sep 16 11:09:53.267279 2021] [mpm_event:notice] [pid 1:tid 140059671753856] AH00489: Apache/2.4.48 (Unix) configured -- resuming normal operations
+[33mb_1            |[0m [Thu Sep 16 11:09:53.267520 2021] [core:notice] [pid 1:tid 140059671753856] AH00094: Command line: 'httpd -D FOREGROUND'
+[32mnginx-proxy_1  |[0m WARNING: /etc/nginx/dhparam/dhparam.pem was not found. A pre-generated dhparam.pem will be used for now while a new one
+[32mnginx-proxy_1  |[0m is being generated in the background.  Once the new dhparam.pem is in place, nginx will be reloaded.
+[32mnginx-proxy_1  |[0m [0;37;1mforego      | [0mstarting dockergen.1 on port 5000
+[32mnginx-proxy_1  |[0m [0;37;1mforego      | [0mstarting nginx.1 on port 5100
+[32mnginx-proxy_1  |[0m [0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:51 [notice] 27#27: using the "epoll" event method
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:51 [notice] 27#27: nginx/1.21.1
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:51 [notice] 27#27: built by gcc 8.3.0 (Debian 8.3.0-6) 
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:51 [notice] 27#27: OS: Linux 4.19.0-17-amd64
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:51 [notice] 27#27: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:51 [notice] 27#27: start worker processes
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:51 [notice] 27#27: start worker process 31
+[32mnginx-proxy_1  |[0m [0m[0;36;1mdockergen.1 | [0;31;1m2021/09/16 11:03:52 Generated '/etc/nginx/conf.d/default.conf' from 3 containers
+[32mnginx-proxy_1  |[0m [0m[0;36;1mdockergen.1 | [0;31;1m2021/09/16 11:03:52 Running 'nginx -s reload'
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:52 [notice] 27#27: signal 1 (SIGHUP) received from 33, reconfiguring
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:52 [notice] 27#27: reconfiguring
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:52 [notice] 27#27: using the "epoll" event method
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:52 [notice] 27#27: start worker processes
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:52 [notice] 27#27: start worker process 38
+[32mnginx-proxy_1  |[0m [0m[0;36;1mdockergen.1 | [0;31;1m2021/09/16 11:03:52 Watching docker events
+[32mnginx-proxy_1  |[0m [0m[0;36;1mdockergen.1 | [0;31;1m2021/09/16 11:03:52 Contents of /etc/nginx/conf.d/default.conf did not change. Skipping notification 'nginx -s reload'
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:52 [notice] 31#31: gracefully shutting down
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:52 [notice] 31#31: exiting
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:52 [notice] 31#31: exit
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:52 [notice] 27#27: signal 17 (SIGCHLD) received from 31
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:52 [notice] 27#27: worker process 31 exited with code 0
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:03:52 [notice] 27#27: signal 29 (SIGIO) received
+[32mnginx-proxy_1  |[0m SIGQUIT: quit
+[32mnginx-proxy_1  |[0m PC=0x46b9e1 m=0 sigcode=0
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 0 [idle]:
+[32mnginx-proxy_1  |[0m runtime.futex(0x695550, 0x80, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x7ffeddd2ba18, 0x40bf1f, ...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/sys_linux_amd64.s:579 +0x21
+[32mnginx-proxy_1  |[0m runtime.futexsleep(0x695550, 0x100000000, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/os_linux.go:44 +0x46
+[32mnginx-proxy_1  |[0m runtime.notesleep(0x695550)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/lock_futex.go:159 +0x9f
+[32mnginx-proxy_1  |[0m runtime.mPark()
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/proc.go:1340 +0x39
+[32mnginx-proxy_1  |[0m runtime.stopm()
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/proc.go:2301 +0x92
+[32mnginx-proxy_1  |[0m runtime.findrunnable(0xc00001c000, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/proc.go:2960 +0x72e
+[32mnginx-proxy_1  |[0m runtime.schedule()
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/proc.go:3169 +0x2d7
+[32mnginx-proxy_1  |[0m runtime.park_m(0xc0000ba780)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/proc.go:3318 +0x9d
+[32mnginx-proxy_1  |[0m runtime.mcall(0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/asm_amd64.s:327 +0x5b
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 1 [chan receive]:
+[32mnginx-proxy_1  |[0m main.runStart(0x690bc0, 0xc0000101a0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:331 +0x518
+[32mnginx-proxy_1  |[0m main.main()
+[32mnginx-proxy_1  |[0m 	/go/forego/main.go:33 +0x26b
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 7 [chan receive]:
+[32mnginx-proxy_1  |[0m main.(*Forego).monitorInterrupt(0xc00008c540)
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:157 +0x125
+[32mnginx-proxy_1  |[0m created by main.runStart
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:286 +0x1a7
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 8 [IO wait]:
+[32mnginx-proxy_1  |[0m internal/poll.runtime_pollWait(0x7fdb44e07f18, 0x72, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/netpoll.go:222 +0x55
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).wait(0xc000046558, 0x72, 0x1001, 0x1000, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:87 +0x45
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).waitRead(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:92
+[32mnginx-proxy_1  |[0m internal/poll.(*FD).Read(0xc000046540, 0xc0000a5000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_unix.go:166 +0x1d5
+[32mnginx-proxy_1  |[0m os.(*File).read(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file_posix.go:31
+[32mnginx-proxy_1  |[0m os.(*File).Read(0xc00000e080, 0xc0000a5000, 0x1000, 0x1000, 0x400, 0x55d9c0, 0x1)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file.go:117 +0x77
+[32mnginx-proxy_1  |[0m bufio.(*Reader).Read(0xc00002cf28, 0xc0000a6400, 0x400, 0x400, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/bufio/bufio.go:227 +0x222
+[32mnginx-proxy_1  |[0m main.(*OutletFactory).LineReader(0xc000016180, 0xc000016220, 0xc000016210, 0xb, 0x0, 0x5c00c8, 0xc00000e080, 0x760000c00008bd00)
+[32mnginx-proxy_1  |[0m 	/go/forego/outlet.go:45 +0x2fb
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:212 +0x437
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 9 [IO wait]:
+[32mnginx-proxy_1  |[0m internal/poll.runtime_pollWait(0x7fdb44e07d48, 0x72, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/netpoll.go:222 +0x55
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).wait(0xc000046618, 0x72, 0x1001, 0x1000, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:87 +0x45
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).waitRead(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:92
+[32mnginx-proxy_1  |[0m internal/poll.(*FD).Read(0xc000046600, 0xc0000a4000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_unix.go:166 +0x1d5
+[32mnginx-proxy_1  |[0m os.(*File).read(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file_posix.go:31
+[32mnginx-proxy_1  |[0m os.(*File).Read(0xc00000e090, 0xc0000a4000, 0x1000, 0x1000, 0x400, 0x55d9c0, 0x1)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file.go:117 +0x77
+[32mnginx-proxy_1  |[0m bufio.(*Reader).Read(0xc000061f28, 0xc0000ce800, 0x400, 0x400, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/bufio/bufio.go:227 +0x222
+[32mnginx-proxy_1  |[0m main.(*OutletFactory).LineReader(0xc000016180, 0xc000016220, 0xc000016210, 0xb, 0x0, 0x5c00c8, 0xc00000e090, 0x760000c00008bd01)
+[32mnginx-proxy_1  |[0m 	/go/forego/outlet.go:45 +0x2fb
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:213 +0x4d7
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 11 [syscall]:
+[32mnginx-proxy_1  |[0m os/signal.signal_recv(0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/sigqueue.go:168 +0xa5
+[32mnginx-proxy_1  |[0m os/signal.loop()
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/signal/signal_unix.go:23 +0x25
+[32mnginx-proxy_1  |[0m created by os/signal.Notify.func1.1
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/signal/signal.go:151 +0x45
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 12 [semacquire]:
+[32mnginx-proxy_1  |[0m sync.runtime_Semacquire(0xc000016228)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/sema.go:56 +0x45
+[32mnginx-proxy_1  |[0m sync.(*WaitGroup).Wait(0xc000016220)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/sync/waitgroup.go:130 +0x65
+[32mnginx-proxy_1  |[0m main.(*Forego).startProcess.func1(0xc00008c540, 0xc00005a240, 0xc000016220, 0xc000010ba0)
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:230 +0x7d
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:227 +0x805
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 13 [select]:
+[32mnginx-proxy_1  |[0m main.(*Forego).startProcess.func2(0xc00008c540, 0xc00005a240, 0x0, 0x0, 0xc000042070, 0x9, 0xc00004207b, 0x5a, 0xc000010990, 0xc000016180, ...)
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:238 +0xe5
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:235 +0x8e5
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 14 [IO wait]:
+[32mnginx-proxy_1  |[0m internal/poll.runtime_pollWait(0x7fdb44e07c60, 0x72, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/netpoll.go:222 +0x55
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).wait(0xc000046858, 0x72, 0x1001, 0x1000, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:87 +0x45
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).waitRead(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:92
+[32mnginx-proxy_1  |[0m internal/poll.(*FD).Read(0xc000046840, 0xc0000c9000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_unix.go:166 +0x1d5
+[32mnginx-proxy_1  |[0m os.(*File).read(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file_posix.go:31
+[32mnginx-proxy_1  |[0m os.(*File).Read(0xc00000e0a8, 0xc0000c9000, 0x1000, 0x1000, 0x400, 0x55d9c0, 0x1)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file.go:117 +0x77
+[32mnginx-proxy_1  |[0m bufio.(*Reader).Read(0xc000027f28, 0xc0000a6c00, 0x400, 0x400, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/bufio/bufio.go:227 +0x222
+[32mnginx-proxy_1  |[0m main.(*OutletFactory).LineReader(0xc000016180, 0xc000016334, 0xc000016278, 0x7, 0x1, 0x5c00c8, 0xc00000e0a8, 0x0)
+[32mnginx-proxy_1  |[0m 	/go/forego/outlet.go:45 +0x2fb
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:212 +0x437
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 15 [IO wait]:
+[32mnginx-proxy_1  |[0m internal/poll.runtime_pollWait(0x7fdb44e07b78, 0x72, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/netpoll.go:222 +0x55
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).wait(0xc000046918, 0x72, 0x1001, 0x1000, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:87 +0x45
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).waitRead(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:92
+[32mnginx-proxy_1  |[0m internal/poll.(*FD).Read(0xc000046900, 0xc0000c8000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_unix.go:166 +0x1d5
+[32mnginx-proxy_1  |[0m os.(*File).read(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file_posix.go:31
+[32mnginx-proxy_1  |[0m os.(*File).Read(0xc00000e0b8, 0xc0000c8000, 0x1000, 0x1000, 0x400, 0x55d9c0, 0x1)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file.go:117 +0x77
+[32mnginx-proxy_1  |[0m bufio.(*Reader).Read(0xc000060f28, 0xc0000cf000, 0x400, 0x400, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/bufio/bufio.go:227 +0x222
+[32mnginx-proxy_1  |[0m main.(*OutletFactory).LineReader(0xc000016180, 0xc000016334, 0xc000016278, 0x7, 0x1, 0x5c00c8, 0xc00000e0b8, 0x1)
+[32mnginx-proxy_1  |[0m 	/go/forego/outlet.go:45 +0x2fb
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:213 +0x4d7
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 16 [semacquire]:
+[32mnginx-proxy_1  |[0m sync.runtime_Semacquire(0xc000016334)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/sema.go:56 +0x45
+[32mnginx-proxy_1  |[0m sync.(*WaitGroup).Wait(0xc000016334)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/sync/waitgroup.go:130 +0x65
+[32mnginx-proxy_1  |[0m main.(*Forego).startProcess.func1(0xc00008c540, 0xc00005a2a0, 0xc000016334, 0xc000010d80)
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:230 +0x7d
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:227 +0x805
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 17 [select]:
+[32mnginx-proxy_1  |[0m main.(*Forego).startProcess.func2(0xc00008c540, 0xc00005a2a0, 0x1, 0x0, 0xc000016170, 0x5, 0xc000016177, 0x5, 0xc000010990, 0xc000016180, ...)
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:238 +0xe5
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:235 +0x8e5
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m rax    0xca
+[32mnginx-proxy_1  |[0m rbx    0x695400
+[32mnginx-proxy_1  |[0m rcx    0x46b9e3
+[32mnginx-proxy_1  |[0m rdx    0x0
+[32mnginx-proxy_1  |[0m rdi    0x695550
+[32mnginx-proxy_1  |[0m rsi    0x80
+[32mnginx-proxy_1  |[0m rbp    0x7ffeddd2b9e0
+[32mnginx-proxy_1  |[0m rsp    0x7ffeddd2b998
+[32mnginx-proxy_1  |[0m r8     0x0
+[32mnginx-proxy_1  |[0m r9     0x0
+[32mnginx-proxy_1  |[0m r10    0x0
+[32mnginx-proxy_1  |[0m r11    0x286
+[32mnginx-proxy_1  |[0m r12    0x0
+[32mnginx-proxy_1  |[0m r13    0x695040
+[32mnginx-proxy_1  |[0m r14    0x5bb102
+[32mnginx-proxy_1  |[0m r15    0x0
+[32mnginx-proxy_1  |[0m rip    0x46b9e1
+[32mnginx-proxy_1  |[0m rflags 0x286
+[32mnginx-proxy_1  |[0m cs     0x33
+[32mnginx-proxy_1  |[0m fs     0x0
+[32mnginx-proxy_1  |[0m gs     0x0
+[32mnginx-proxy_1  |[0m [0m[0;37;1mforego      | [0mstarting dockergen.1 on port 5000
+[32mnginx-proxy_1  |[0m [0;37;1mforego      | [0mstarting nginx.1 on port 5100
+[32mnginx-proxy_1  |[0m [0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:25 [notice] 20#20: using the "epoll" event method
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:25 [notice] 20#20: nginx/1.21.1
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:25 [notice] 20#20: built by gcc 8.3.0 (Debian 8.3.0-6) 
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:25 [notice] 20#20: OS: Linux 4.19.0-17-amd64
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:25 [notice] 20#20: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:25 [notice] 20#20: start worker processes
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:25 [notice] 20#20: start worker process 25
+[32mnginx-proxy_1  |[0m [0m[0;36;1mdockergen.1 | [0;31;1m2021/09/16 11:09:25 Generated '/etc/nginx/conf.d/default.conf' from 3 containers
+[32mnginx-proxy_1  |[0m [0m[0;36;1mdockergen.1 | [0;31;1m2021/09/16 11:09:25 Running 'nginx -s reload'
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:25 [notice] 20#20: signal 1 (SIGHUP) received from 27, reconfiguring
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:25 [notice] 20#20: reconfiguring
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:25 [notice] 20#20: using the "epoll" event method
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:25 [notice] 20#20: start worker processes
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:25 [notice] 20#20: start worker process 31
+[32mnginx-proxy_1  |[0m [0m[0;36;1mdockergen.1 | [0;31;1m2021/09/16 11:09:26 Watching docker events
+[32mnginx-proxy_1  |[0m [0m[0;36;1mdockergen.1 | [0;31;1m2021/09/16 11:09:26 Contents of /etc/nginx/conf.d/default.conf did not change. Skipping notification 'nginx -s reload'
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:26 [notice] 25#25: gracefully shutting down
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:26 [notice] 25#25: exiting
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:26 [notice] 25#25: exit
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:26 [notice] 20#20: signal 17 (SIGCHLD) received from 25
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:26 [notice] 20#20: worker process 25 exited with code 0
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:26 [notice] 20#20: signal 29 (SIGIO) received
+[32mnginx-proxy_1  |[0m SIGQUIT: quit
+[32mnginx-proxy_1  |[0m PC=0x46b9e1 m=0 sigcode=0
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 0 [idle]:
+[32mnginx-proxy_1  |[0m runtime.futex(0x695550, 0x80, 0x0, 0x0, 0x0, 0x7fff5701ef60, 0x43bb19, 0xc00002e550, 0x7fff5701ef68, 0x40bf1f, ...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/sys_linux_amd64.s:579 +0x21
+[32mnginx-proxy_1  |[0m runtime.futexsleep(0x695550, 0xc000000000, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/os_linux.go:44 +0x46
+[32mnginx-proxy_1  |[0m runtime.notesleep(0x695550)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/lock_futex.go:159 +0x9f
+[32mnginx-proxy_1  |[0m runtime.mPark()
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/proc.go:1340 +0x39
+[32mnginx-proxy_1  |[0m runtime.stoplockedm()
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/proc.go:2495 +0x6e
+[32mnginx-proxy_1  |[0m runtime.schedule()
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/proc.go:3103 +0x48c
+[32mnginx-proxy_1  |[0m runtime.park_m(0xc0000a8180)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/proc.go:3318 +0x9d
+[32mnginx-proxy_1  |[0m runtime.mcall(0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/asm_amd64.s:327 +0x5b
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 1 [chan receive]:
+[32mnginx-proxy_1  |[0m main.runStart(0x690bc0, 0xc0000101a0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:331 +0x518
+[32mnginx-proxy_1  |[0m main.main()
+[32mnginx-proxy_1  |[0m 	/go/forego/main.go:33 +0x26b
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 7 [chan receive]:
+[32mnginx-proxy_1  |[0m main.(*Forego).monitorInterrupt(0xc00008c540)
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:157 +0x125
+[32mnginx-proxy_1  |[0m created by main.runStart
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:286 +0x1a7
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 8 [IO wait]:
+[32mnginx-proxy_1  |[0m internal/poll.runtime_pollWait(0x7f78312d6f18, 0x72, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/netpoll.go:222 +0x55
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).wait(0xc000046558, 0x72, 0x1001, 0x1000, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:87 +0x45
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).waitRead(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:92
+[32mnginx-proxy_1  |[0m internal/poll.(*FD).Read(0xc000046540, 0xc0000b4000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_unix.go:166 +0x1d5
+[32mnginx-proxy_1  |[0m os.(*File).read(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file_posix.go:31
+[32mnginx-proxy_1  |[0m os.(*File).Read(0xc00000e080, 0xc0000b4000, 0x1000, 0x1000, 0x400, 0x55d9c0, 0x1)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file.go:117 +0x77
+[32mnginx-proxy_1  |[0m bufio.(*Reader).Read(0xc00002cf28, 0xc0000b6000, 0x400, 0x400, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/bufio/bufio.go:227 +0x222
+[32mnginx-proxy_1  |[0m main.(*OutletFactory).LineReader(0xc000016180, 0xc000016220, 0xc000016210, 0xb, 0x0, 0x5c00c8, 0xc00000e080, 0x760000c00008bd00)
+[32mnginx-proxy_1  |[0m 	/go/forego/outlet.go:45 +0x2fb
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:212 +0x437
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 9 [IO wait]:
+[32mnginx-proxy_1  |[0m internal/poll.runtime_pollWait(0x7f78312d6d48, 0x72, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/netpoll.go:222 +0x55
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).wait(0xc000046618, 0x72, 0x1001, 0x1000, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:87 +0x45
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).waitRead(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:92
+[32mnginx-proxy_1  |[0m internal/poll.(*FD).Read(0xc000046600, 0xc0000b5000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_unix.go:166 +0x1d5
+[32mnginx-proxy_1  |[0m os.(*File).read(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file_posix.go:31
+[32mnginx-proxy_1  |[0m os.(*File).Read(0xc00000e090, 0xc0000b5000, 0x1000, 0x1000, 0x400, 0x55d9c0, 0x1)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file.go:117 +0x77
+[32mnginx-proxy_1  |[0m bufio.(*Reader).Read(0xc000061f28, 0xc0000bdc00, 0x400, 0x400, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/bufio/bufio.go:227 +0x222
+[32mnginx-proxy_1  |[0m main.(*OutletFactory).LineReader(0xc000016180, 0xc000016220, 0xc000016210, 0xb, 0x0, 0x5c00c8, 0xc00000e090, 0x760000c00008bd01)
+[32mnginx-proxy_1  |[0m 	/go/forego/outlet.go:45 +0x2fb
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:213 +0x4d7
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 10 [semacquire]:
+[32mnginx-proxy_1  |[0m sync.runtime_Semacquire(0xc000016228)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/sema.go:56 +0x45
+[32mnginx-proxy_1  |[0m sync.(*WaitGroup).Wait(0xc000016220)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/sync/waitgroup.go:130 +0x65
+[32mnginx-proxy_1  |[0m main.(*Forego).startProcess.func1(0xc00008c540, 0xc00005a120, 0xc000016220, 0xc000010ba0)
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:230 +0x7d
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:227 +0x805
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 11 [select]:
+[32mnginx-proxy_1  |[0m main.(*Forego).startProcess.func2(0xc00008c540, 0xc00005a120, 0x0, 0x0, 0xc000042070, 0x9, 0xc00004207b, 0x5a, 0xc000010990, 0xc000016180, ...)
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:238 +0xe5
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:235 +0x8e5
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 12 [IO wait]:
+[32mnginx-proxy_1  |[0m internal/poll.runtime_pollWait(0x7f78312d6c60, 0x72, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/netpoll.go:222 +0x55
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).wait(0xc000046798, 0x72, 0x1001, 0x1000, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:87 +0x45
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).waitRead(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:92
+[32mnginx-proxy_1  |[0m internal/poll.(*FD).Read(0xc000046780, 0xc0000b8000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_unix.go:166 +0x1d5
+[32mnginx-proxy_1  |[0m os.(*File).read(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file_posix.go:31
+[32mnginx-proxy_1  |[0m os.(*File).Read(0xc00000e0a8, 0xc0000b8000, 0x1000, 0x1000, 0x400, 0x55d9c0, 0x1)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file.go:117 +0x77
+[32mnginx-proxy_1  |[0m bufio.(*Reader).Read(0xc000026f28, 0xc0000b6800, 0x400, 0x400, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/bufio/bufio.go:227 +0x222
+[32mnginx-proxy_1  |[0m main.(*OutletFactory).LineReader(0xc000016180, 0xc000016324, 0xc000016268, 0x7, 0x1, 0x5c00c8, 0xc00000e0a8, 0x0)
+[32mnginx-proxy_1  |[0m 	/go/forego/outlet.go:45 +0x2fb
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:212 +0x437
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 13 [IO wait]:
+[32mnginx-proxy_1  |[0m internal/poll.runtime_pollWait(0x7f78312d6b78, 0x72, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/netpoll.go:222 +0x55
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).wait(0xc000046858, 0x72, 0x1001, 0x1000, 0xffffffffffffffff)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:87 +0x45
+[32mnginx-proxy_1  |[0m internal/poll.(*pollDesc).waitRead(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_poll_runtime.go:92
+[32mnginx-proxy_1  |[0m internal/poll.(*FD).Read(0xc000046840, 0xc0000b9000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/internal/poll/fd_unix.go:166 +0x1d5
+[32mnginx-proxy_1  |[0m os.(*File).read(...)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file_posix.go:31
+[32mnginx-proxy_1  |[0m os.(*File).Read(0xc00000e0b8, 0xc0000b9000, 0x1000, 0x1000, 0x400, 0x55d9c0, 0x1)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/file.go:117 +0x77
+[32mnginx-proxy_1  |[0m bufio.(*Reader).Read(0xc000060f28, 0xc0000be400, 0x400, 0x400, 0x0, 0x0, 0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/bufio/bufio.go:227 +0x222
+[32mnginx-proxy_1  |[0m main.(*OutletFactory).LineReader(0xc000016180, 0xc000016324, 0xc000016268, 0x7, 0x1, 0x5c00c8, 0xc00000e0b8, 0x1)
+[32mnginx-proxy_1  |[0m 	/go/forego/outlet.go:45 +0x2fb
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:213 +0x4d7
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 14 [semacquire]:
+[32mnginx-proxy_1  |[0m sync.runtime_Semacquire(0xc000016324)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/sema.go:56 +0x45
+[32mnginx-proxy_1  |[0m sync.(*WaitGroup).Wait(0xc000016324)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/sync/waitgroup.go:130 +0x65
+[32mnginx-proxy_1  |[0m main.(*Forego).startProcess.func1(0xc00008c540, 0xc00005a180, 0xc000016324, 0xc000010d50)
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:230 +0x7d
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:227 +0x805
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 15 [select]:
+[32mnginx-proxy_1  |[0m main.(*Forego).startProcess.func2(0xc00008c540, 0xc00005a180, 0x1, 0x0, 0xc000016170, 0x5, 0xc000016177, 0x5, 0xc000010990, 0xc000016180, ...)
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:238 +0xe5
+[32mnginx-proxy_1  |[0m created by main.(*Forego).startProcess
+[32mnginx-proxy_1  |[0m 	/go/forego/start.go:235 +0x8e5
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m goroutine 17 [syscall]:
+[32mnginx-proxy_1  |[0m os/signal.signal_recv(0x0)
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/runtime/sigqueue.go:168 +0xa5
+[32mnginx-proxy_1  |[0m os/signal.loop()
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/signal/signal_unix.go:23 +0x25
+[32mnginx-proxy_1  |[0m created by os/signal.Notify.func1.1
+[32mnginx-proxy_1  |[0m 	/usr/local/go/src/os/signal/signal.go:151 +0x45
+[32mnginx-proxy_1  |[0m 
+[32mnginx-proxy_1  |[0m rax    0xca
+[32mnginx-proxy_1  |[0m rbx    0x695400
+[32mnginx-proxy_1  |[0m rcx    0x46b9e3
+[32mnginx-proxy_1  |[0m rdx    0x0
+[32mnginx-proxy_1  |[0m rdi    0x695550
+[32mnginx-proxy_1  |[0m rsi    0x80
+[32mnginx-proxy_1  |[0m rbp    0x7fff5701ef30
+[32mnginx-proxy_1  |[0m rsp    0x7fff5701eee8
+[32mnginx-proxy_1  |[0m r8     0x0
+[32mnginx-proxy_1  |[0m r9     0x0
+[32mnginx-proxy_1  |[0m r10    0x0
+[32mnginx-proxy_1  |[0m r11    0x286
+[32mnginx-proxy_1  |[0m r12    0xc000028fa4
+[32mnginx-proxy_1  |[0m r13    0x0
+[32mnginx-proxy_1  |[0m r14    0x5bb102
+[32mnginx-proxy_1  |[0m r15    0x0
+[32mnginx-proxy_1  |[0m rip    0x46b9e1
+[32mnginx-proxy_1  |[0m rflags 0x286
+[32mnginx-proxy_1  |[0m cs     0x33
+[32mnginx-proxy_1  |[0m fs     0x0
+[32mnginx-proxy_1  |[0m gs     0x0
+[32mnginx-proxy_1  |[0m [0m[0;37;1mforego      | [0mstarting dockergen.1 on port 5000
+[32mnginx-proxy_1  |[0m [0;37;1mforego      | [0mstarting nginx.1 on port 5100
+[32mnginx-proxy_1  |[0m [0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: using the "epoll" event method
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: nginx/1.21.1
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: built by gcc 8.3.0 (Debian 8.3.0-6) 
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: OS: Linux 4.19.0-17-amd64
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: start worker processes
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: start worker process 26
+[32mnginx-proxy_1  |[0m [0m[0;36;1mdockergen.1 | [0;31;1m2021/09/16 11:09:53 Generated '/etc/nginx/conf.d/default.conf' from 3 containers
+[32mnginx-proxy_1  |[0m [0m[0;36;1mdockergen.1 | [0;31;1m2021/09/16 11:09:53 Running 'nginx -s reload'
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: signal 1 (SIGHUP) received from 28, reconfiguring
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: reconfiguring
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: using the "epoll" event method
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: start worker processes
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: start worker process 30
+[32mnginx-proxy_1  |[0m [0m[0;36;1mdockergen.1 | [0;31;1m2021/09/16 11:09:53 Watching docker events
+[32mnginx-proxy_1  |[0m [0m[0;36;1mdockergen.1 | [0;31;1m2021/09/16 11:09:53 Contents of /etc/nginx/conf.d/default.conf did not change. Skipping notification 'nginx -s reload'
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 26#26: gracefully shutting down
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 26#26: exiting
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 26#26: exit
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: signal 17 (SIGCHLD) received from 26
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: worker process 26 exited with code 0
+[32mnginx-proxy_1  |[0m [0m[0;33;1mnginx.1     | [0;31;1m2021/09/16 11:09:53 [notice] 22#22: signal 29 (SIGIO) received
+Gracefully stopping... (press Ctrl+C again to force)
